@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Hà Huynh"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="680dp"
+        android:textColor="#fff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvname"
+        android:text="2050531200162"
+        android:layout_marginLeft="295dp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/tvlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textSize="35sp"
+        android:layout_marginLeft="27dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Log In" />
+
+    <EditText
+        android:id="@+id/edtdusn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/tvlogin"
+        android:textColorHint="#80FFFFFF"
+        android:textColor="#fff"
+        android:ems="17"/>
+
+    <EditText
+        android:id="@+id/edtpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtdusn"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="#80FFFFFF"
+        android:textColor="#fff"
+        android:ems="17"/>
+
+    <CheckBox
+        android:id="@+id/btnrmbme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtpw"
+        android:layout_marginLeft="27dp"/>
+
+    <TextView
+        android:id="@+id/tvrmbme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:paddingTop="12dp"
+        android:textSize="17sp"
+        android:textColor="#80FFFFFF"
+        android:layout_toRightOf="@id/btnrmbme"
+        android:layout_below="@id/edtpw"/>
+
+    <TextView
+        android:id="@+id/tvfgpw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtpw"
+        android:textColor="#F44336"
+        android:padding="12dp"
+        android:textSize="17sp"
+        android:text="Forgot Password"
+        android:layout_marginLeft="230dp"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:ems="17"
+        android:backgroundTint="#F44336"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnrmbme"/>
+
+    <TextView
+        android:id="@+id/tvdhaaccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textSize="17sp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/btnlogin"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/tvsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textColor="#F44336"
+        android:layout_below="@id/btnlogin"
+        android:textSize="17sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="280dp"/>
+
+</RelativeLayout>
